@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAB8298126445AF5003FFC0F /* AviaryTest2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8298026445AF5003FFC0F /* AviaryTest2App.swift */; };
+		FAB8298326445AF5003FFC0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8298226445AF5003FFC0F /* ContentView.swift */; };
+		FAB8298526445AF6003FFC0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB8298426445AF6003FFC0F /* Assets.xcassets */; };
+		FAB8298826445AF6003FFC0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB8298726445AF6003FFC0F /* Preview Assets.xcassets */; };
+		FAB8299126445B1C003FFC0F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8299026445B1C003FFC0F /* MapView.swift */; };
+		FAB8299726445C53003FFC0F /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8299626445C53003FFC0F /* Bird.swift */; };
+		FAB8299A26445FA4003FFC0F /* RecentBirds.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8299926445FA4003FFC0F /* RecentBirds.swift */; };
+		FAB8299D26446864003FFC0F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8299C26446864003FFC0F /* LocationManager.swift */; };
+		FAB829A026446D9C003FFC0F /* MapView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8299F26446D9C003FFC0F /* MapView2.swift */; };
+		FAB829A326447C96003FFC0F /* Glossary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB829A226447C96003FFC0F /* Glossary.swift */; };
+		FAB829A626447D90003FFC0F /* BirdRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB829A526447D90003FFC0F /* BirdRow.swift */; };
+		FAB829A926448331003FFC0F /* BirdDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB829A826448331003FFC0F /* BirdDetail.swift */; };
+		FAB829AC26448555003FFC0F /* CommunityBirds.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB829AB26448555003FFC0F /* CommunityBirds.swift */; };
+		FAB829AF26448618003FFC0F /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB829AE26448618003FFC0F /* Camera.swift */; };
+		FAB829B92644A046003FFC0F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FAB829B82644A046003FFC0F /* Alamofire */; };
+		FAB829BD2644DD25003FFC0F /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB829BC2644DD25003FFC0F /* Persistance.swift */; };
+		FAB829C12644DEE5003FFC0F /* BirdList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAB829BF2644DEE5003FFC0F /* BirdList.xcdatamodeld */; };
+		FAB829C52645E5B4003FFC0F /* Bird2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB829C42645E5B4003FFC0F /* Bird2.swift */; };
+		FAB829C82645EB21003FFC0F /* BirdDetail2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB829C72645EB21003FFC0F /* BirdDetail2.swift */; };
+		FAB829CB2645EBCD003FFC0F /* BirdRow2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB829CA2645EBCD003FFC0F /* BirdRow2.swift */; };
+		FAB829CF264622CF003FFC0F /* MapView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB829CE264622CF003FFC0F /* MapView3.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAB8297D26445AF5003FFC0F /* AviaryTest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AviaryTest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB8298026445AF5003FFC0F /* AviaryTest2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviaryTest2App.swift; sourceTree = "<group>"; };
+		FAB8298226445AF5003FFC0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAB8298426445AF6003FFC0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAB8298726445AF6003FFC0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAB8298926445AF6003FFC0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB8299026445B1C003FFC0F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		FAB8299626445C53003FFC0F /* Bird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
+		FAB8299926445FA4003FFC0F /* RecentBirds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentBirds.swift; sourceTree = "<group>"; };
+		FAB8299C26446864003FFC0F /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		FAB8299F26446D9C003FFC0F /* MapView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView2.swift; sourceTree = "<group>"; };
+		FAB829A226447C96003FFC0F /* Glossary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glossary.swift; sourceTree = "<group>"; };
+		FAB829A526447D90003FFC0F /* BirdRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdRow.swift; sourceTree = "<group>"; };
+		FAB829A826448331003FFC0F /* BirdDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdDetail.swift; sourceTree = "<group>"; };
+		FAB829AB26448555003FFC0F /* CommunityBirds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityBirds.swift; sourceTree = "<group>"; };
+		FAB829AE26448618003FFC0F /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		FAB829BC2644DD25003FFC0F /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
+		FAB829C02644DEE5003FFC0F /* BirdList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BirdList.xcdatamodel; sourceTree = "<group>"; };
+		FAB829C42645E5B4003FFC0F /* Bird2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bird2.swift; sourceTree = "<group>"; };
+		FAB829C72645EB21003FFC0F /* BirdDetail2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdDetail2.swift; sourceTree = "<group>"; };
+		FAB829CA2645EBCD003FFC0F /* BirdRow2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdRow2.swift; sourceTree = "<group>"; };
+		FAB829CE264622CF003FFC0F /* MapView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView3.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAB8297A26445AF5003FFC0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB829B92644A046003FFC0F /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAB8297426445AF5003FFC0F = {
+			isa = PBXGroup;
+			children = (
+				FAB8297F26445AF5003FFC0F /* AviaryTest2 */,
+				FAB8297E26445AF5003FFC0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAB8297E26445AF5003FFC0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAB8297D26445AF5003FFC0F /* AviaryTest2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAB8297F26445AF5003FFC0F /* AviaryTest2 */ = {
+			isa = PBXGroup;
+			children = (
+				FAB829B526448F56003FFC0F /* Models */,
+				FAB829B426448F51003FFC0F /* Views */,
+				FAB8298026445AF5003FFC0F /* AviaryTest2App.swift */,
+				FAB8298226445AF5003FFC0F /* ContentView.swift */,
+				FAB8298426445AF6003FFC0F /* Assets.xcassets */,
+				FAB8298926445AF6003FFC0F /* Info.plist */,
+				FAB8298626445AF6003FFC0F /* Preview Content */,
+			);
+			path = AviaryTest2;
+			sourceTree = "<group>";
+		};
+		FAB8298626445AF6003FFC0F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAB8298726445AF6003FFC0F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAB829B426448F51003FFC0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAB829A826448331003FFC0F /* BirdDetail.swift */,
+				FAB829AE26448618003FFC0F /* Camera.swift */,
+				FAB829A526447D90003FFC0F /* BirdRow.swift */,
+				FAB829AB26448555003FFC0F /* CommunityBirds.swift */,
+				FAB829A226447C96003FFC0F /* Glossary.swift */,
+				FAB8299F26446D9C003FFC0F /* MapView2.swift */,
+				FAB8299026445B1C003FFC0F /* MapView.swift */,
+				FAB829C72645EB21003FFC0F /* BirdDetail2.swift */,
+				FAB829CA2645EBCD003FFC0F /* BirdRow2.swift */,
+				FAB829CE264622CF003FFC0F /* MapView3.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FAB829B526448F56003FFC0F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAB8299926445FA4003FFC0F /* RecentBirds.swift */,
+				FAB8299C26446864003FFC0F /* LocationManager.swift */,
+				FAB8299626445C53003FFC0F /* Bird.swift */,
+				FAB829BC2644DD25003FFC0F /* Persistance.swift */,
+				FAB829BF2644DEE5003FFC0F /* BirdList.xcdatamodeld */,
+				FAB829C42645E5B4003FFC0F /* Bird2.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAB8297C26445AF5003FFC0F /* AviaryTest2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB8298C26445AF6003FFC0F /* Build configuration list for PBXNativeTarget "AviaryTest2" */;
+			buildPhases = (
+				FAB8297926445AF5003FFC0F /* Sources */,
+				FAB8297A26445AF5003FFC0F /* Frameworks */,
+				FAB8297B26445AF5003FFC0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AviaryTest2;
+			packageProductDependencies = (
+				FAB829B82644A046003FFC0F /* Alamofire */,
+			);
+			productName = AviaryTest2;
+			productReference = FAB8297D26445AF5003FFC0F /* AviaryTest2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAB8297526445AF5003FFC0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FAB8297C26445AF5003FFC0F = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = FAB8297826445AF5003FFC0F /* Build configuration list for PBXProject "AviaryTest2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAB8297426445AF5003FFC0F;
+			packageReferences = (
+				FAB829B72644A046003FFC0F /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = FAB8297E26445AF5003FFC0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAB8297C26445AF5003FFC0F /* AviaryTest2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAB8297B26445AF5003FFC0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB8298826445AF6003FFC0F /* Preview Assets.xcassets in Resources */,
+				FAB8298526445AF6003FFC0F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAB8297926445AF5003FFC0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB829CB2645EBCD003FFC0F /* BirdRow2.swift in Sources */,
+				FAB829A326447C96003FFC0F /* Glossary.swift in Sources */,
+				FAB8298326445AF5003FFC0F /* ContentView.swift in Sources */,
+				FAB8299A26445FA4003FFC0F /* RecentBirds.swift in Sources */,
+				FAB829A626447D90003FFC0F /* BirdRow.swift in Sources */,
+				FAB829AC26448555003FFC0F /* CommunityBirds.swift in Sources */,
+				FAB8299726445C53003FFC0F /* Bird.swift in Sources */,
+				FAB829A926448331003FFC0F /* BirdDetail.swift in Sources */,
+				FAB829BD2644DD25003FFC0F /* Persistance.swift in Sources */,
+				FAB829CF264622CF003FFC0F /* MapView3.swift in Sources */,
+				FAB829C52645E5B4003FFC0F /* Bird2.swift in Sources */,
+				FAB8299D26446864003FFC0F /* LocationManager.swift in Sources */,
+				FAB829C12644DEE5003FFC0F /* BirdList.xcdatamodeld in Sources */,
+				FAB829A026446D9C003FFC0F /* MapView2.swift in Sources */,
+				FAB829C82645EB21003FFC0F /* BirdDetail2.swift in Sources */,
+				FAB8299126445B1C003FFC0F /* MapView.swift in Sources */,
+				FAB829AF26448618003FFC0F /* Camera.swift in Sources */,
+				FAB8298126445AF5003FFC0F /* AviaryTest2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAB8298A26445AF6003FFC0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAB8298B26445AF6003FFC0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAB8298D26445AF6003FFC0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AviaryTest2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AviaryTest2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alex.AviaryTest2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAB8298E26445AF6003FFC0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AviaryTest2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AviaryTest2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alex.AviaryTest2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAB8297826445AF5003FFC0F /* Build configuration list for PBXProject "AviaryTest2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB8298A26445AF6003FFC0F /* Debug */,
+				FAB8298B26445AF6003FFC0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB8298C26445AF6003FFC0F /* Build configuration list for PBXNativeTarget "AviaryTest2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB8298D26445AF6003FFC0F /* Debug */,
+				FAB8298E26445AF6003FFC0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FAB829B72644A046003FFC0F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FAB829B82644A046003FFC0F /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAB829B72644A046003FFC0F /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		FAB829BF2644DEE5003FFC0F /* BirdList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAB829C02644DEE5003FFC0F /* BirdList.xcdatamodel */,
+			);
+			currentVersion = FAB829C02644DEE5003FFC0F /* BirdList.xcdatamodel */;
+			path = BirdList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAB8297526445AF5003FFC0F /* Project object */;
+}
